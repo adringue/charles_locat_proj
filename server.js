@@ -456,4 +456,4 @@ const pdfParser = async (filePath) => {
   /////////////////////////////////////////////////////////////////////////////////////
 /////////////////////////////////////////////
 
-app.listen(3001, () => console.log('Example app is listening on port 3001.'));
+app.listen(process.env.PORT, () => console.log('Example app is listening on port `${process.env.PORT}`.'));
